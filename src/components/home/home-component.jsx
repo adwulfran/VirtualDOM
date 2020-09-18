@@ -9,14 +9,14 @@ function mainComponent() {
 
   const a = (
     <ul className="list" style="list-style: none;">
-      <li>item 1</li>
+      <li>item 1 FRMO HOME</li>
       <li>item 2</li>
     </ul>
   );
 
   const b = (
     <ul>
-      <li>item 1</li>
+      <li>item 1 FRMO HOOOOOME</li>
       <li>hello!</li>
     </ul>
   );

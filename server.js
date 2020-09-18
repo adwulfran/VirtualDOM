@@ -4,8 +4,12 @@ var path = require('path');
 var public = path.join(__dirname, '');
 
 // viewed at http://localhost:8080
-app.get('/', function(req, res) {
-    res.sendFile(path.join(public, 'index.html'));
+app.get('/home', function(req, res) {
+    res.sendFile(path.join(public, 'src/components/home/home-component.html'));
+});
+
+app.get('/login', function(req, res) {
+    res.sendFile(path.join(public, 'src/components/login/login-component.html'));
 });
 
 app.use('/', express.static(public));
