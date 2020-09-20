@@ -2,15 +2,16 @@ import * as wolf from "./wolf.js";
 
 //class mainComponent {
 
-function mainComponent() {
+function HomeComponent() {
   /** @jsx h */
   let h = wolf.h;
   // ---------------------------------------------------------------------
-
+    let data = { name : 'jean', age : '28'};
+    data.name = 'roger';
   const a = (
     <ul className="list" style="list-style: none;">
       <li>item 1 FRMO HOME</li>
-      <li>item 2</li>
+      <li>item 2 { data.name }</li>
     </ul>
   );
 
@@ -30,4 +31,4 @@ function mainComponent() {
   });
 }
 
-mainComponent();
+HomeComponent();

@@ -2,7 +2,7 @@ import * as wolf from "./wolf.js";
 
 //class mainComponent {
 
-function mainComponent() {
+function LoginComponent() {
   /** @jsx h */
   let h = wolf.h;
   // ---------------------------------------------------------------------
@@ -30,4 +30,4 @@ function mainComponent() {
   });
 }
 
-mainComponent();
+LoginComponent();
